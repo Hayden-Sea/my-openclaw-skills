@@ -1,0 +1,20 @@
+{
+  "name": "window-screenshot",
+  "version": "1.0.0",
+  "description": "Windows screenshot skill using Win32 API for accurate physical coordinate capture",
+  "entryPoint": "screenshot.ps1",
+  "parameters": {
+    "WindowName": {
+      "type": "string",
+      "description": "Process name to capture (e.g., 'notepad', 'chrome')"
+    },
+    "FullScreen": {
+      "type": "boolean",
+      "description": "Capture full physical screen"
+    }
+  },
+  "requirements": {
+    "os": "windows",
+    "powershell": true
+  }
+}
